@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-   
+
 }
 
 body {
@@ -25,8 +25,8 @@ body {
     width: 550px;
     background: transparent;
     border-radius: 3px;
-   
-    
+
+
 }
 
 
@@ -49,14 +49,18 @@ body {
 .clock span {
     font-size: 60px;
     font-weight: bolder;
+
 }
 
+#time {
+    font-size: 10px;
 
+}
 
 @media screen and (max-width: 780px) {
-  
-  
-  
+
+
+
     .clock {
         display: flex;
         align-items: center;
@@ -66,9 +70,8 @@ body {
         width: 200px;
         background: transparent;
         border-radius: 3px;
-    
-        
+
+
     }
-    
-  }
-  
+
+}
